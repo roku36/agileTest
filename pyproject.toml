@@ -25,6 +25,7 @@ dependencies = [
     "wandb==0.13.10",
     "agilerl>=0.1.18",
     "gymnasium[box2d]==0.28.1",
+    "imageio>=2.33.0",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
