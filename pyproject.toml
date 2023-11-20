@@ -1,0 +1,41 @@
+[project]
+name = "agiletest"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "roku36", email = "roku36000@gmail.com" }
+]
+dependencies = [
+    "accelerate==0.18.0",
+    "dill==0.3.7",
+    "fastrand==1.3.0",
+    "flatten_dict==0.4.2",
+    "h5py==3.8.0",
+    "hydra-core==1.3.2",
+    "minari==0.4.1",
+    "numpy==1.24.2",
+    "omegaconf==2.3.0",
+    "pre-commit==3.4.0",
+    "redis==4.4.4",
+    "SuperSuit==3.9.0",
+    "termcolor==1.1.0",
+    "torch==2.0.1",
+    "tqdm==4.65.0",
+    "transformers==4.30.0",
+    "wandb==0.13.10",
+    "agilerl>=0.1.18",
+    "gymnasium[box2d]==0.28.1",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
