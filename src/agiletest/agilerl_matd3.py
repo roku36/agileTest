@@ -122,7 +122,7 @@ if __name__ == "__main__":
     )
 
     # Define training loop parameters
-    max_episodes = 500  # Total episodes (default: 6000)
+    max_episodes = 20000  # Total episodes (default: 6000)
     max_steps = 25  # Maximum steps to take in each episode
     epsilon = 1.0  # Starting epsilon value
     eps_end = 0.1  # Final epsilon value
